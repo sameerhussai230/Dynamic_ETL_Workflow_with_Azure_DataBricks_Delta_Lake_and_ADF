@@ -49,34 +49,6 @@ To address additional requirements such as GDPR compliance, time travel, and dat
 This robust pipeline ensures efficient data processing, from ingestion to presentation, while meeting various compliance and analytical needs.
 
 
-The project follows a structured organization to manage the various stages of data processing efficiently:
-
-1. ingestion
-This directory contains notebooks responsible for ingesting data files from the raw layer to the ingested layer. It handles incremental data for files like results, pitstops, laptimes, and qualifying.
-
-2. trans
-Here, you'll find notebooks dedicated to transforming data from the ingested layer to the presentation layer. Each notebook performs specific transformations to prepare the data for analysis.
-
-3. set-up
-Notebooks in this directory are used to mount Azure Data Lake Storage (ADLS) containers (raw, ingested, presentation) in Databricks, facilitating seamless data access and processing.
-
-4. includes
-This directory houses notebooks containing helper functions utilized in various transformations and data processing tasks.
-
-5. analysis
-Contains SQL files for conducting analysis tasks such as identifying dominant drivers and teams, and preparing results for visualization.
-
-6. raw
-Here, you'll find SQL files to create ingested tables using Spark SQL, facilitating data organization and accessibility.
-
-7. utils
-Contains SQL files for managing database resources, including dropping all databases for incremental load processes.
-
-8. Ergast_Data
-This folder holds sample raw data sourced from the Ergast API, aiding in development and testing processes.
-
-This structured approach streamlines the data processing pipeline, making it more manageable and scalable.
-
 ### Incremental Load using Delta Lake
 
  Implementing Scalable Code for Incremental Load & Full Load Files using Delta Lake's upsert concept in Azure Databricks.
