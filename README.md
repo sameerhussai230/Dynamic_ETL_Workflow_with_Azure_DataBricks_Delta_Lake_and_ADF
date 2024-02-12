@@ -81,4 +81,8 @@ The process pipeline is responsible for orchestrating the execution of both the 
 ![Process_Pipeline](https://github.com/sameerhussai230/Dynamic_ETL_Workflow_with_Azure_DataBricks_Delta_Lake_and_ADF/assets/85198601/dd0231a6-b2af-48c7-a607-0352ec947eac)
 
 ---
+### Connected Databricks Cluster to Power BI for Data Visualization
+![connected_databricks to powerBI](https://github.com/sameerhussai230/Dynamic_ETL_Workflow_with_Azure_DataBricks_Delta_Lake_and_ADF/assets/85198601/86675527-55d8-4c43-87a1-e799a1c7b9f9)
+
+-----
 
