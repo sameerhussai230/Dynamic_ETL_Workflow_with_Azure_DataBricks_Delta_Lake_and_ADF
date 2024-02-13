@@ -1,4 +1,4 @@
-##Dynamic ETL Workflow with Azure DataBricks, Delta Lake and ADF
+Dynamic ETL Workflow with Azure DataBricks, Delta Lake and ADF
 ---
 
 ### Project Overview
